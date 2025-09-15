@@ -79,3 +79,4 @@
 - [Count number of digit in a given integer](./set-01/countDigit.js)
 - [Palindrome number](./set-01/palindromeNumber.js)
   - https://leetcode.com/problems/palindrome-number/description/
+- [Reverse Integer (32-bit signed Integer)](./set-01/reverseInteger.js)
