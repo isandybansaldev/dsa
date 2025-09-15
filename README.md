@@ -76,4 +76,6 @@
 0 1 0 1 0 1
 ```
 
-- [Count Digit](./set-01/countDigit.js)
+- [Count number of digit in a given integer](./set-01/countDigit.js)
+- [Palindrome number](./set-01/palindromeNumber.js)
+  - https://leetcode.com/problems/palindrome-number/description/
