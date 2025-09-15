@@ -75,3 +75,5 @@
 1 0 1 0 1
 0 1 0 1 0 1
 ```
+
+- [Count Digit](./set-01/countDigit.js)
