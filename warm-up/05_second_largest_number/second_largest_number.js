@@ -1,4 +1,8 @@
 function secondLargest(nums) {
+  if (nums.length < 2) {
+    return null;
+  }
+
   let largest = -Infinity;
   let second = -Infinity;
 
@@ -6,7 +10,7 @@ function secondLargest(nums) {
     if (nums[i] > largest) {
       second = largest;
       largest = nums[i];
-    } else if (nums[i] > second) {
+    } else if (nums[i] > second && nums[i] !== largest) {
       second = nums[i];
     }
   }
@@ -14,6 +18,6 @@ function secondLargest(nums) {
   return second;
 }
 
-let nums = [1, 8, 2, 9, 7, 0, 3];
+let nums = [10, 20, 8, 8, 3, 5, 20];
 let output = secondLargest(nums);
 console.log("Output:", output);
