@@ -25,4 +25,10 @@ digit = 4 and we want to add 3 to make it 43
 digit * 10 + 3 = 43
 ```
 
-### Two pointer approach
+### Sum of n numbers
+
+Sum = n \* (n + 1) / 2
+
+### Eliminate Duplicate number
+
+Bitwise (^)XOR can be used to remove duplicate number
